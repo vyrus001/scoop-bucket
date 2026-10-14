@@ -1,0 +1,17 @@
+{
+  "version": "0.8.0",
+  "description": "Make JSON greppable (vyrus001 fork)",
+  "homepage": "https://github.com/vyrus001/gron",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/vyrus001/gron/releases/download/v0.8.0/gron_0.8.0_windows_amd64.tar.gz",
+      "hash": "bdca5a5ba1654be847a38991c564d33eb8e42280b3ef33a27c46b82a0775e15d"
+    },
+    "arm64": {
+      "url": "https://github.com/vyrus001/gron/releases/download/v0.8.0/gron_0.8.0_windows_arm64.tar.gz",
+      "hash": "a6cbdccf5ce21ac2b1824be4a9b5646afd8bd942c1d06f4fdd6f94a824932ad8"
+    }
+  },
+  "bin": "gron.exe"
+}
